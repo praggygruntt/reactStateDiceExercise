@@ -18,10 +18,16 @@
     margin-top: 3em;
     font-size: 1.12em;
     align-self: center;
+    outline: none;
 }
 
 .RollDice button:hover {
     background-color: darkslateblue;
     cursor: pointer;
-    font-size: 1.13em;
+    font-size: 1.14em;
+}
+
+.RollDice button:active {
+    background-color: black;
+    font-size: 1.12em;
 }
